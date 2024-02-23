@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+  background-color: #e0e8ff;
+  font-family: "Red Hat Display",sans-serif;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+}
+
+  .card {
+    height: 550px;
+    background: #f5f7ff;
+    border-radius: 15px;
+    
+  }
+  .card img {
+    height: 175px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+  }
+
+  .heading {
+    color: #1f2f56;
+    text-align: center;
+    
+  }
+  .text{
+    color:#7280a7;
+    line-height: 1.6;
+    font-size: .95rem;
+    padding: 5px;
+  }
+  .musıc{
+    background:#e6e9f5 ;
+    display: flex;
+    align-items: center;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.musıc img{
+    height: 50px;
+    display: flex;
+  }
+.icerik{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    gap: 3px;
+    font-size: 15px;
+  }
+.musıc p{
+    color: #1f2f56;
+    font-size: 15px;
+  }
+  .musıc span{
+    color: #7280a7;
+    font-size: 14px;
+  }
+  .musıc_link a{
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    color: #3829e0;
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+.musıc_link a:hover{
+    opacity: .8;
+}
+
+
+.btn{
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 12px 64px;
+  display: inline-block;
+  border-radius: 10px;
+  
+}
+.btn:hover{
+  opacity:0.8;
+}
+ .btn-blue{
+  background-color: #3829e0;
+  color: aliceblue;
+ }
+ .alt_yazi{
+  color: #7280a7;
+  text-align: center;
+  padding: 24px;px;
+ }
+ .alt_yazi:hover{
+  color: black;
+ }
